@@ -56,6 +56,11 @@ const Signin =() => {
             <Container className='text-center'>
                 <Row>
                     <Col lg={6} className='offset-lg-3 mt-5'>
+                        <div>
+                            <h4>Demo Credentials</h4>
+                            <h5>Email: user@gmail.com</h5>
+                            <h5>Password: 123456</h5>
+                        </div>
                         <Card>
                             <Form onSubmit={handleFormSubmit}>
                                 <CardHeader className=''>Signin here</CardHeader>
